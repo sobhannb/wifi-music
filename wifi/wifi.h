@@ -1,6 +1,7 @@
 #ifndef wifi
 #define wifi
 
+#include "Arduino.h"
 #include <WiFi.h>
 #include "FS.h"
 #include <LittleFS.h>
@@ -21,3 +22,4 @@ class wifi
         String Ssid;
 		String Password;
 }
+#endif

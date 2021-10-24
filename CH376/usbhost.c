@@ -1,6 +1,7 @@
 #ifndef usbhost
 #define usbhost
 
+#include "Arduino.h"
 #include <Ch376msc.h>
 #include <ArduinoJson.h>
 
@@ -16,3 +17,4 @@ class datalog
 		int Year[10] ,Month[10] ,Day[10] ,Hour[10] ,Minute[10] ,Second[10];
 		char JSONmessageBuffer[300];
 }
+#endif
