@@ -16,10 +16,11 @@ class wifi
 		bool ping();
 	private:
 		String ssid;
-        String password;
-        char inChar;
-        int a = 0;
-        String Ssid;
+        	String password;
+        	char inChar;
+        	int a = 0;
+        	String Ssid;
 		String Password;
+		const char* remote_host = "www.google.com";
 }
 #endif
